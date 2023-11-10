@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>FORMULÁRIOS</title>
+	<link rel="stylesheet" href="formcss.css">
+</head>
+<body>
+<h1>CADASTRO TABAJARA</h1>
+<main>
+<form>
+	<h3>NOME:</h3>
+	<input type="text" placeholder="NOME" maxlength="10" required autofocus id="texto"> <br>
+	<h3>E-MAIL:</h3>
+	<input type="email" placeholder="E-MAIL" required><br>
+	<h3>SENHA:</h3>
+	<input type="password">
+	<h3>TELEFONE</h3>
+	<input type="tel" maxlength="9">
+	<h3>DATA:</h3>
+	<input type="date">
+	<section>
+		<h3>ZONA:</h3>
+		<input type="radio" name="zona"> NORTE
+		<input type="radio" name="zona"> SUL
+		<input type="radio" name="zona" checked> SUDESTE
+		<input type="radio" name="zona"> LESTE
+	</section>
+	<br>
+	<h3>CURSOS:</h3>
+	<select>
+		<option>Informática</option>
+		<option>Enfermagem</option>
+		<option selected>Edificações</option>
+		<option>Análises Clínicas</option>	
+	</select>
+	<h3>COMENTÁRIO:</h3>
+	<textarea cols="10" rows="10" placeholder="Digite seu comentário"></textarea>
+	<br>
+	<input type="submit" value="CADASTRAR">
+	<input type="reset" value="CANCELAR">
+</form>
+</main>
+</body>
+</html>

@@ -1,0 +1,32 @@
+main{
+	display: flex;
+	justify-content: center;
+}
+form{
+	background-color:#DA70D6;
+	font-size:20px;
+	padding: 30px;
+	width: 400px;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+}
+section{
+	background-color:#87CEEB;
+}
+input{
+	font-size: 20px;
+	color: #000080;
+	border-radius: 8px;
+	height: 30px;
+	background-color:#FFE4C4;
+}
+input#texto{
+	color: pink;
+}
+select{
+	font-size: 20px;
+	color: #000080;
+	background-color: red;
+	
+}
